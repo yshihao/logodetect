@@ -1,2 +1,6 @@
 # logodetect
 计算机视觉课程期末项目，logo检测与识别
+
+
+本项目是计算机视觉 课程的final 项目，从0开始一步步构建了一个logo检测与识别系统。我在这里采用了滑动窗口+图像金字塔+非极大值抑制+cnn模型完成了这个logo检测与识别项目。项目一共训练了两个cnn模型，一个cnn模型用来检测某区域是否为logo,另一个cnn模型用来判断该框中的logo是哪一个种类。神经网络采用的数据集是flicker_logos_27_dataset中的Adidas,Apple,BMW,Citroen,Nike这5类，负样本是从这5类图片中提取非logo区域得到。
+
